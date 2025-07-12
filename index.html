@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinterest - Clone</title>
+    <link rel="icon" href="https://www.wblibrary.org/site-assets/images/pinterest-logo/@@images/image.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./stylesheet.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <div class="logo">
+                <a href="./index.html"><button><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Pinterest_Logo.svg/2560px-Pinterest_Logo.svg.png"
+                            alt="Pinterest Logo"></button></a>
+            </div>
+            <div class="explore"><button>Explore</button></div>
+        </div>
+        <div class="navbar-right">
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Businesses</a>
+            <a class="nav-link" href="#">Create</a>
+            <a class="nav-link" href="#">News</a>
+            <div class="auth-buttons">
+                <button class="login-btn">Log in</button>
+                <button class="signup-btn">Sign up</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="background">
+        <div class="overlay">
+
+            <div class="first">
+                <div class="first-span"><span>Log in to get</span><br>
+                    <span>your ideas</span>
+                </div>
+                <div class="welcome">
+                    <div class="welcome-1">
+                        <img src="https://1000logos.net/wp-content/uploads/2018/03/Pinterest-Logo-2011-2016.png" alt="">
+                        <br>
+                        <span>Welcome to</span><span>Pinterest</span>
+                    </div>
+                    <div class="welcome-2">
+                        <div class="welcome-2-all">
+                            <div class="">
+                                <label for="email">Email address</label> <br>
+                                <input type="email" placeholder="Email" id="email" required />
+                                <br>
+                                <label for="password">Password</label> <br>
+                                <input type="password" placeholder="Password" id="password" required /><br>
+                                <a href="">Forgotten your password?</a><br>
+                                <button class="log-in-btn">Log in</button>
+                            </div>
+                            <div class="or">OR</div>
+                            <div>
+                                <button class="fb-btn">
+                                    <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTM1LXNvY2lhbC0wMDFhLnBuZw.png"
+                                        alt="">
+                                    Continue with Facebook</button>
+                                <button class="g-btn">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png"
+                                        alt="">
+                                    Continue with Google
+                                </button>
+                                <button class="pass-btn">
+                                    <i class="fa-solid fa-envelope"></i>Log in without password</button>
+                            </div>
+                        </div>
+
+                        <div class="welcome-3">
+                            <div>By continuing, you agree to Pinterest's <u>Terms of</u> </div>
+                            <div><u>Service</u> and acknowledge
+                                that
+                                you've read our</div>
+                            <div><u>Privacy Policy</u>. <u>Notice at collection</u>.</div>
+                        </div>
+
+                        <div class="welcome-4"> Not on Pinterest yet? Sign up</div>
+
+                        <div class="welcome-5">Are you a business? <span>Get started here!</span></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="background-2">
+        <div class="hero">
+            <h1>Get your next<br><span>DIY idea</span></h1>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="active"></span>
+            </div>
+        </div>
+
+        <!-- Image Strip -->
+        <div class="image-strip">
+            <div class="imgs-a">
+                <img src="img1.jpg" alt="img1" class="img-group-a">
+                <img src="img8.jpg" alt="img8" class="img-group-a">
+            </div>
+            <div class="imgs-b">
+                <img src="img3.jpg" alt="img3" class="img-group-c">
+                <img src="img7.jpg" alt="img7" class="img-group-c">
+            </div>
+            <div class="imgs-c">
+                <img src="img4.jpg" alt="img4" class="img-group-d">
+                <img src="img6.jpg" alt="img6" class="img-group-d">
+            </div>
+            <div class="imgs-d">
+                <img src="img2.jpg" alt="img2" class="img-group-b">
+                <img src="img5.jpg" alt="img5" class="img-group-b">
+                <img src="img9.jpg" alt="img9" class="img-group-b">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="background-3">
+        <div class="background-3-left">
+            <div class="background-3-parent">
+                <div class="bg3-img-1"><img src="https://s.pinimg.com/webapp/topRight-6902088a.png" alt=""></div>
+                <div class="bg3-img-2"><img src="https://s.pinimg.com/webapp/left-ccce7532.png" alt=""></div>
+                <div class="bg3-img-3"><img src="https://s.pinimg.com/webapp/right-2bd1edfc.png" alt=""></div>
+                <div class="bg3-img-4"><img src="https://s.pinimg.com/webapp/center-2d76a691.png" alt=""></div>
+                <div class="bg3-img-btn"><button>
+                        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <div>easy chicken
+                            dinner</div>
+                    </button></div>
+            </div>
+        </div>
+
+
+
+        <div class="background-3-right">
+            <div class="bg3-right1">Search for an idea</div>
+            <div class="bg3-right2">What do you want to try next? Think <br> of something you’re into – such as <br>
+                'easy chicken
+                dinner' – and see
+                <br>what you find.
+            </div>
+            <div><button>Explore</button></div>
+        </div>
+    </div>
+
+    <div class="background-4">
+        <div class="left-text">
+            <h1>Save ideas you like</h1>
+            <p>Collect your favourites so you can <br> get back to them later.</p>
+            <button>Explore</button>
+        </div>
+
+        <div class="right-images">
+            <div class="main-image">
+                <img src="https://s.pinimg.com/webapp/future-home-vibes-adb19e98.png" alt="">
+                <div class="main-text">
+                    <h2>Fern future<br>home vibes</h2>
+                    <div class="thumbs">
+                        <img src="https://s.pinimg.com/webapp/future-home1-b8bc36e8.png" />
+                        <img src="https://s.pinimg.com/webapp/future-home2-31c812cc.png" />
+                        <img src="https://s.pinimg.com/webapp/future-home3-037e8d49.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="small-img-1">
+                <img src="https://s.pinimg.com/webapp/scandinavian-bedroom-696dfba5.png" />
+                <span>My <br> Scandinavian <br>bedroom</span>
+            </div>
+            <div class="small-img-2">
+                <img src="https://s.pinimg.com/webapp/deck-of-dreams-205a139e.png" />
+                <span>The decking <br> of my dreams</span>
+            </div>
+            <div class="small-img-3">
+                <img src="https://s.pinimg.com/webapp/serve-my-drinks-4de83489.png" />
+                <span>Serve my <br> drinks in <br>style</span>
+            </div>
+            <div class="small-img-4">
+                <img src="https://s.pinimg.com/webapp/bathroom-upgrade-02599fd4.png" />
+                <span>Our <br>bathroom <br>upgrade</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="background-5">
+        <div class="bg5-left">
+            <img class="bg5-left-img" src="https://s.pinimg.com/webapp/shop-de8ddf10.png" alt="">
+            <img class="small-img" src="https://s.pinimg.com/webapp/creator-pin-img-3bed5463.png" alt="">
+            <div class="small-txt"><span>Scout the City</span><br> 56.7k followers</div>
+            <div class="small-small-img"><img src="https://s.pinimg.com/webapp/creator-avatar-262dfeba.png" alt="">
+            </div>
+        </div>
+        <div class="bg5-right">
+            <div class="bg5-rightbox">
+                <h1>See it, make it, <br> try it, do it</h1>
+                <p>The best part of Pinterest is <br>discovering new things and ideas <br> from people around the world.
+                </p>
+                <button>Explore</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="closing-line">
+        <div class="line">
+            <div><a href="">Terms of Service</a></div>
+            <div><a href="">Privacy Policy</a></div>
+            <div> <a href="">Help</a></div>
+            <div> <a href="">iPhone app</a></div>
+            <div> <a href="">Android app</a></div>
+            <div> <a href="">Users</a></div>
+            <div> <a href="">Collections</a></div>
+            <div><a href="">Shopping</a></div>
+            <div><a href="">Explore</a></div>
+            <div> <a href="">Shop</a></div>
+            <div><a href="">Non-User Notice</a></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
