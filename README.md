@@ -1,7 +1,9 @@
 # Pinterest_Clone
-## My first front-end development project with pure HTML and CSS.
+
+My first front-end development project with pure HTML and CSS.
 
 Here are few ScreenShots of my developed website!!!
+
 <img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/e6850ec0-ea8b-4057-8a62-9eaea60cf2fb" />
 
 <img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/c371dc24-9699-4e52-bac0-ae698ef0abb4" />
